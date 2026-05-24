@@ -4,7 +4,7 @@ I created this software to practice using JavaScript. The program is a grade cal
 
 The purpose of writing this software was to strengthen my understanding of JavaScript syntax and common programming concepts. In this project, I practiced using variables, arrays, objects, functions, conditionals, recursion, ES6 array methods, DOM manipulation, and exception handling. I also used a JavaScript library called Day.js to format and display the current date and time.
 
-[Software Demo Video](http://youtube.link.goes.here)
+Link: https://youtu.be/YhgMiFrWenA
 
 # Development Environment
 
