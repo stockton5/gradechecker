@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Checker</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Day.js is an outside JavaScript library used to show a clean date/time. -->
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Grade Checker</h1>
+    <p>Add assignment scores to check your current grade.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Add Assignment</h2>
+
+      <input id="name" type="text" placeholder="Assignment name">
+      <input id="score" type="number" placeholder="Score earned">
+      <input id="points" type="number" placeholder="Points possible">
+
+      <button onclick="addAssignment()">Add Assignment</button>
+    </section>
+
+    <section class="card">
+      <h2>Current Grade</h2>
+
+      <p>Total Earned: <span id="earned">0</span></p>
+      <p>Total Possible: <span id="possible">0</span></p>
+      <p>Percentage: <span id="percent">0%</span></p>
+      <p>Letter Grade: <span id="letter">N/A</span></p>
+      <p>Number of Assignments: <span id="count">0</span></p>
+      <p>Last Updated: <span id="date">Never</span></p>
+    </section>
+
+    <section class="card">
+      <h2>Assignments</h2>
+      <ul id="assignmentList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
